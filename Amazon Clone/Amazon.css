@@ -4,6 +4,9 @@
     border: Border-box;
 }
 
+body {
+    height: 4000px;
+}
 .Navbar {
     height: 60px;
     background-color: black;
@@ -169,5 +172,66 @@ span {
 /* Big Image */
 
 .big-image {
-    background-image: url(images/hero_image.jpg);
+    background-image: url('/Ingale.Repo/Amazon Clone/images/hero_image.jpg');
+    height: 380px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.message {
+    background-color: white;
+    color: black;
+    display: flex;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 25px ;
+    font-size:14px;
+}
+
+.message a {
+    color: #007185;
+    cursor: pointer;
+}
+
+.message a:hover {
+    color: rgb(207, 44, 44);
+
+}
+
+
+/* Main section */
+
+.Main-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    height: 400px;
+    width: 350px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+
+.img1 {
+    height: 300px;
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+.contant {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.seemore1 {
+    color: #007185;
 }
