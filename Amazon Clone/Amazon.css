@@ -19,7 +19,7 @@
 }
 
 .Icon {
-    background-image: url(/Ingale.Repo/images/amazon_logo.png);
+    background-image: url('/Ingale.Repo/Amazon Clone/images/amazon_logo.png');
     height: 50px;
     width: 100%;
     background-size: cover;
@@ -103,7 +103,7 @@
 }
 
 .India-logo {
-    background-image: url(/Ingale.Repo/images/India.png);
+    background-image: url('/Ingale.Repo/Amazon Clone/images/India.png');
     height: 20px;
     width: 28px;
     background-size: cover;
@@ -163,4 +163,11 @@ span {
 .pannel-deals {
     font-size: 0.9rem;
     font-weight: 700;
+}
+
+
+/* Big Image */
+
+.big-image {
+    background-image: url(images/hero_image.jpg);
 }
