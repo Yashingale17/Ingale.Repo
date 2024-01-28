@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: Border-box;
+}
+
+.Navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Nav-Icon {
+    height: 50px;
+    width: 100px;
+}
+
+.Icon {
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.Border {
+    border: 1px solid transparent;
+}
+
+.Border:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+/* Second box */
+
+.Deliver {
+    font-size: 0.80rem;
+    color: rgb(230, 222, 222);
+    margin-left: 15px;
+}
+
+.India {
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+
+.location-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Box 3 */
+
+.search {
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+    height: 40px;
+
+}
+
+.Select {
+    background-color:  #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-Bottom-left-radius: 5px;
+    border: none;
+}
+
+.Search-input {
+    width: 100%;
+    border: none;
+    font-size: 14px;
+}
+
+.search:hover {
+    border: 3px solid #febd68;
+    border-radius: 8px;
+
+}
+
+.search-icon {
+    background-color: #febd68;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+
+.Language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.India-logo {
+    background-image: url(India.png);
+    height: 20px;
+    width: 28px;
+    background-size: cover;
+}
+
+.Lan {
+    background-color: #0f1111;
+    color: white;
+    border: none;
+
+}
+
+/* Fox 4 */
+
+span {
+    font-size: 0.7rem;
+}
+
+.Upper-2 {
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+
+/* box 5 */
+
+.cart i {
+    font-size: 30px;
+}
+
+.cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Pannel */
+
+.pannel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pannel-opt {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.pannel-opt p {
+    display: inline;
+    margin-left: 13px;
+}
+
+.pannel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
