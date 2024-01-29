@@ -3,10 +3,6 @@
     font-family: Arial;
     border: Border-box;
 }
-
-body {
-    height: 4000px;
-}
 .Navbar {
     height: 60px;
     background-color: black;
@@ -234,4 +230,127 @@ span {
 
 .seemore1 {
     color: #007185;
+}
+
+
+/* Footer */ 
+
+.foot-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #374751;
+    color: white;
+    height: 50px;
+    margin-top: 12px;
+    font-size: 0.85rem;
+}
+
+.foot-2 {
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 15px;
+}
+
+ul a {
+    display: block;
+    color: #ddd;
+    font-size: 0.90rem;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+
+.foot-3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.01px solid #1d2833;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 {
+    background-image: url('/Ingale.Repo/Amazon Clone/images/amazon_logo.png');
+    background-size: cover;
+    height: 58px;
+    width: 100px;
+}
+
+.foot3-box {
+    height: 30px;
+    width: 113px;
+    border: 0.5px solid white;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+
+}
+
+.Dolaar {
+    height: 30px;
+    width: 125px;
+    border: 0.5px solid white;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    font-size: 13px;
+    margin-right: 12px;
+    margin-left: 30px;
+    padding-left: 8px;
+}
+
+.Dolaar p {
+    padding-left: 7px;
+    color: #ddd;
+}
+
+
+.logo-Ind {
+    background-image: url('/Ingale.Repo/Amazon Clone/images/India.png');
+    height: 12px;
+    width: 18px;
+    background-size: cover;
+    margin: 8px;
+}
+
+.foot3-box p {
+    font-size: 16px;
+}
+
+
+.foot-4 {
+    background-color: rgb(19, 26, 34);
+    color: white;
+    height: 76px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.f1 {
+    padding-top: 15px;
+}
+.f1 a {
+    text-decoration: none;
+   color: white;
+   margin-left: 15px;
+}
+
+.f1 a:hover {
+    text-decoration: underline;
+}
+
+.f2 {
+    padding-top: 3px;
 }
