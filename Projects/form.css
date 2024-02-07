@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(74, 152, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 350px;
+    width: 500px;
+    background-color: #fff;
+}
+
+form {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.heading {
+    color: rgb(74, 152, 230);
+    margin-top: 40px;
+    margin-bottom: 35px;
+    
+}
+
+.name , .mail {
+    width: 100%;
+    height: 30px;
+    padding: 1.5px;
+    border-radius: 3px;
+    border: black 1px solid ;
+}
+
+.mail {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 385px;
+    height: 35px;
+    background-color: rgb(74,152,230);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin-top: 25px;
+    border: transparent 1px solid;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+
+
